@@ -5,7 +5,7 @@ const distPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
 	context: srcPath,
-	entry: './src/server/server.js',
+	entry: './src/server/index.js',
 	output: {
 		path: distPath,
 		filename: 'server.js',

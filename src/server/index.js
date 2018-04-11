@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/server';
 import helmet from 'react-helmet';
 
-import App from '../shared/app/app.jsx';
+import App from '../shared/app/App';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
